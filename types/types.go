@@ -83,12 +83,12 @@ const (
 	DefaultRecoveryBackendServerPort = 9600
 
 	EngineBinaryDirectoryInContainer = "/engine-binaries/"
-	EngineBinaryDirectoryOnHost      = "/var/lib/longhorn/engine-binaries/"
+	EngineBinaryDirectoryOnHost      = "/data/longhorn-root/engine-binaries/"
 	ReplicaHostPrefix                = "/host"
 	EngineBinaryName                 = "longhorn"
 
-	UnixDomainSocketDirectoryInContainer = "/host/var/lib/longhorn/unix-domain-socket/"
-	UnixDomainSocketDirectoryOnHost      = "/var/lib/longhorn/unix-domain-socket/"
+	UnixDomainSocketDirectoryInContainer = "/host/data/longhorn-root/unix-domain-socket/"
+	UnixDomainSocketDirectoryOnHost      = "/data/longhorn-root/unix-domain-socket/"
 
 	BackingImageManagerDirectory = "/backing-images/"
 	BackingImageFileName         = "backing"
